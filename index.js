@@ -24,9 +24,6 @@ class App extends React.Component {
                         <h1 id='text' className='ml-3'>"{this.state.text[this.state.count]}</h1>
                         <p id='author' className='ml-3'>- {this.state.author[this.state.count]}</p>
                         <button id='new-quote' className=' btn btn-primary ml-3' onClick={this.handleClick}>New Quote</button>
-                        <a id='tweet-quote' href='twitter.com/intent/tweet' target='_blank' className='btn btn-warning ml-3'>
-                            <i className='fab fa-twitter'></i>
-                        </a>
                     </div>
                 </div>
             </div>
